@@ -140,7 +140,7 @@ const Header = () => {
                           <div>
                             <p
                               onClick={
-                                menuItem.title === "Courses"
+                                 menuItem.title === "About" ||menuItem.title=== "Courses"
                                   ? toggleAboutSubMenu
                                   : () => handleSubmenu(index)
                               }
